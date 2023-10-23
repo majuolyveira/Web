@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #0074e4;
+}
+
+input,
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 1px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074e4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056a9;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0074e4;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+
+.nav:hover {
+    border-bottom: #0074e4 solid 2px;
+}
+
+.bx {
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.bx:hover {
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.item-categoria {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.modal-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: relative;
+    width: 300px;
+    margin: 14% auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+#fechar-modal {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    font-size: 30px;
+    padding: 0;
+}
+
+#fechar-modal:hover{
+    background-color: red;
+    color: white;
+}

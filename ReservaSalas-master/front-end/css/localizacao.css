@@ -1,0 +1,183 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o contêiner principal */
+div {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título */
+h3 {
+    color: #0074e4;
+    /* Azul */
+}
+
+/* Estilo para os campos de entrada e o botão */
+input,
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 1px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074e4;
+    /* Azul */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056a9;
+    /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo para a lista de localizações */
+#localizacao-lista {
+    margin-top: 20px;
+}
+
+/* Estilo para cada item da lista */
+#localizacao-lista div {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o texto na lista */
+#localizacao-lista div p {
+    color: #0074e4;
+    /* Azul */
+}
+
+/* Estilo para o modal de fundo */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-edt {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* ... Outros estilos ... */
+
+/* Estilo para botões do modal */
+.modal-btn {
+    background-color: #0074e4;
+    /* Azul */
+    color: #fff;
+    padding: 15px 20px;
+    /* Aumente a margem horizontal */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Estilo para o botão fechar do modal */
+.close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 24px;
+}
+
+/* ... Outros estilos ... */
+.modal-text {
+    font-family: 'Poppins', sans-serif;
+    /* Fonte personalizada */
+    font-size: 20px;
+    /* Tamanho da fonte aumentado */
+    color: #333;
+    /* Cor de texto personalizada */
+}
+
+.modal-btn:hover {
+    background-color: #0074e4;
+    /* Azul mais escuro ao passar o mouse */
+}
+
+.bx {
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.bx:hover {
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+#fechar-modal{
+    font-size: 30px;
+}
+#fechar-modal:hover{
+background-color: red;
+color: white;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #0074e4;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+
+.nav:hover{
+    border-bottom: #0074e4 solid 2px;
+}

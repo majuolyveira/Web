@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Localizações</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/localizacao.js" defer></script>
+    <link rel="stylesheet" href="css/localizacao.css">
+</head>
+<body>
+    <div>
+        <a class="nav" href="salas.html">Salas</a>
+        <a class="nav" href="categoria.html">Categorias</a>
+        <h3>Cadastro de Localizações</h3>
+        <form id="form-cad" action="" method="POST">
+            Predio:
+            <input id="inputPredio" type="text">
+            Piso:
+            <input id="inputPiso" type="text">
+            <button id="button-finalizar" type="submit">Finalizar</button>
+        </form>
+    </div>
+    <!-- Modal de confirmação -->
+    <div id="modal-confirmacao" class="modal">
+        <div class="modal-content">
+            <p class="modal-text">Deseja confirmar o cadastro?</p>
+            <button id="confirmar-cadastro" class="modal-btn">Sim</button>
+            <button id="cancelar-cadastro" class="modal-btn">Não</button>
+        </div>
+    </div>
+    
+    <div class="modal-edt">
+        <div class="modal-content">
+                <h3>Edite a localizacao</h3>
+                <form id="form-cad-edt" method="post">
+                    Predio:
+                    <input id="inputPredioEdt" type="text">
+                    Piso:
+                    <input id="inputPisoEdt" type="text">
+                    <button id="button-finalizarEdt" 
+                    type="submit">Finalizar</button>
+                    <i id="fechar-modal" class='bx bx-x'></i>
+
+                </form>
+            </form>
+        </div>
+    </div>
+    <div id="localizacao-lista">
+        
+    </div>
+    </div>
+</body>
+</html>

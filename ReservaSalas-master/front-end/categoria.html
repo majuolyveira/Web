@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoria</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/categoria.css">
+    <script src="js/categoria.js" defer></script>
+</head>
+<body>  
+    <div class="div">
+        <a class="nav" href="salas.html">Salas</a>
+        <a class="nav" href="localizacao.html">Localizações</a>
+        <h3>Cadastro de categoria</h3>
+        <form id="form-cad" action="" method="POST">
+            Nome da Categoria: 
+            
+            <input id="inputNome" type="text" name="nome">
+            <button id="button-finalizar" type="submit">Finalizar</button>
+            
+
+
+        </form>
+
+    </div>
+
+    <div  class="modal-content">
+        <div class="modal">
+            <form id="form-cad-edt" method="POST">
+                Nome da Categoria: 
+                
+                <input id="inputNome-Edt" type="text" name="nome">
+                <button id="button-finalizar-edt" type="submit">Finalizar</button>
+                <i id="fechar-modal" class='bx bx-x'></i>
+        </div>
+        
+    </div>
+
+    <div id="list-categoria" class="div">
+       
+    </div>
+    
+</body>
+</html>
